@@ -1,3 +1,6 @@
 # customer-managment-cli
 
-Paleidimui per git bash: node commands.js add 
+
+#node commands.js add 
+#node commands.js list
+#node commands.js add

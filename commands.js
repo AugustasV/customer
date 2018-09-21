@@ -4,7 +4,8 @@ const { prompt } = require('inquirer');
 const {
   addCustomer,
   updateCustomer,
-  removeCustomer
+  removeCustomer,
+  listCustomers
 } = require('./index');
 
 // Customer Questions

@@ -35,10 +35,20 @@
       });
   }
   
+  // List Customers
+const listCustomers = () => {
+  Customer.find()
+    .then(customers => {
+      console.info(customers);
+      console.info(`${customers.length} customers`);
+      db.close();
+    });
+}
   
   // Export All Methods
   module.exports = {
     addCustomer,
     updateCustomer,
-    removeCustomer
+    removeCustomer,
+    listCustomers
   }

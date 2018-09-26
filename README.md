@@ -7,9 +7,6 @@ Inquirer.js: https://www.npmjs.com/package/inquirer <br />
 mocha: https://www.npmjs.com/package/mocha <br />
 validator: https://www.npmjs.com/package/validator <br />
 
-### Version
-1.0.0
-
 ## Usage
 
 ### Installation
@@ -18,12 +15,6 @@ Install the dependencies
 
 ```sh
 $ npm install
-```
-
-### Create Symlink
-
-```sh
-$ npm link
 ```
 
 ### Commands
